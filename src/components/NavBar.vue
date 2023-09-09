@@ -16,7 +16,9 @@
             <a href="#" class="hover:text-gray-300 transition duration-300">AGENDA</a>
             <a href="#" class="hover:text-gray-300 transition duration-300">RESSOURCES</a>
           </div>
-          <button class="button">LOGIN</button>
+          <router-link to="/login">
+            <button class="button">LOGIN</button>
+          </router-link>
         </div>
       </nav>
     </div>
