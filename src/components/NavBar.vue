@@ -19,7 +19,7 @@
           </div>
           <div class="right-side flex items-center">
             <router-link to="/login">
-              <button class="button">CONNEXION</button>
+              <button class="button">Login</button>
             </router-link>
           </div>
         </div>
@@ -101,19 +101,21 @@
   }
   
   .button {
-    font-family: 'Playfair Display', serif;
-    font-size: 1rem;
-    line-height: 1.8rem;
-    text-decoration: none;
-    border-radius: 50px;
-    background-color: #FFFFFF;
-    padding: 0.5%;
-  }
+  background: transparent;
+  border: 2px solid #000;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  background-color: #fff;
+}
+
+.button:hover {
+  background-color: #000;
+  color: #fff;
+}
   
-  .button:hover {
-    background-color: gold;
-  }
-  
+
   .video-bg {
     position: absolute;
     top: -1rem;

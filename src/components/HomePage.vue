@@ -1,8 +1,8 @@
 <template>
     <div class="home">
       
-      <SlickSyncedSlider />
       <LandingPage />
+      <SlickSyncedSlider />
       <MaCarte />
       
     </div>
