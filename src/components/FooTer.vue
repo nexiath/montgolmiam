@@ -17,7 +17,9 @@
         <div class="footer-section">
           <h4>PARTENAIRES</h4>
           <ul class="liste">
-            <li><a href="#">Nos partenaires</a></li>
+            <router-link to="/PartNaires">
+                <li><a href="#">Nos partenaires</a></li>
+            </router-link>
             <li><a href="#">Nous soutenir</a></li>
           </ul>
         </div>

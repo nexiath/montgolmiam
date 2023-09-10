@@ -46,6 +46,7 @@
     left: 0;
     right: 0;
     position: relative;
+    overflow-x: hidden;
     width: 100%;
     height: calc(8 * var(--navbar-height));
     --navbar-height: 60px;
@@ -59,7 +60,7 @@
     background: transparent;
     z-index: 10;
     font-family: 'Playfair Display', serif;
-    font-size: larger;
+    font-size: 0.9rem;
     font-weight: 400;
   }
   
@@ -115,9 +116,9 @@
   
   .video-bg {
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
+    top: -1rem;
+    left: -1rem;
+    right: -1rem;
     width: 100%;
     height: 100%;
     object-fit: cover;

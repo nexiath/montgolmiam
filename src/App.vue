@@ -18,3 +18,10 @@ export default {
   }
 }
 </script>
+
+<style>
+  body {
+    display: block;
+    margin: 0;  /* Changez cette valeur à 0 */
+}
+</style>
