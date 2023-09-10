@@ -14,8 +14,8 @@
             <a href="#" class="hover:text-gray-300 transition duration-300">ÉVÉNEMENTS</a>
             <a href="#" class="hover:text-gray-300 transition duration-300">SERVICES</a>
             <a href="#" class="hover:text-gray-300 transition duration-300">BILLETERIE</a>
-            <a href="#" class="hover:text-gray-300 transition duration-300">MÉCÈNES</a>
             <a href="#" class="hover:text-gray-300 transition duration-300">COMMENTAIRES</a>
+            <a href="#" class="hover:text-gray-300 transition duration-300">STATISTIQUES</a>
           </div>
           <div class="right-side flex items-center">
             <router-link to="/login">
