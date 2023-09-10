@@ -60,7 +60,7 @@
     background: transparent;
     z-index: 10;
     font-family: 'Playfair Display', serif;
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 400;
   }
   

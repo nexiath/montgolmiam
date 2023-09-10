@@ -2,7 +2,7 @@
     <div class="landing-page">
       <!-- Evenements Section -->
       <section id="events">
-        <h2 class="events-title">Événements à venir</h2>
+        <h2 class="events-title">Les événements</h2>
   
         <div class="events-grid">
           <!-- Event 1 -->
@@ -69,11 +69,15 @@
   
   <style scoped>
 
-.event-title {
+ h2 {
   text-align: left;
   margin-bottom: 20px;
-  padding-left: 40px; /* Espace pour l'icône */
+  padding-left: 80px;
+  padding-bottom: 2%;
+  padding-top: 3%;
   position: relative;
+  font-family: 'Playfair Display', serif;
+  
 }
 
 .event-title::before {
@@ -82,14 +86,12 @@
   left: 0;
   top: 50%;
   transform: translateY(-50%);
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+    font-weight: 200;
 }
-
-  .landing-page {
-    font-family: 'Playfair Display', serif;
-  }
   
   body {
-    font-family: 'Playfair Display', serif;
     margin: 20px;
     padding: 20px;
   }
