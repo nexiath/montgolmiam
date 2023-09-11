@@ -16,8 +16,8 @@
     data() {
       return {
         slides: [],
-        speed: 1, // Pixels par frame d'animation
-        imageWidth: 200, // Largeur de l'image en pixels
+        speed: 1,
+        imageWidth: 200, 
       };
     },
     created() {
@@ -47,7 +47,7 @@
             image,
             position,
           });
-          position += this.imageWidth; // Espacement entre les images
+          position += this.imageWidth;
         });
       },
       startAnimation() {
@@ -74,7 +74,7 @@
   #image-container {
     overflow: hidden;
     position: relative;
-    height: 100px; /* Ajustez la hauteur ici */
+    height: 100px; 
     width: 100%;
   }
   
